@@ -1,0 +1,148 @@
+main {
+    padding: 10px 50px;
+}
+body {
+    background-color: rgb(243, 243, 243);
+}
+.bg-dark {
+    padding: 10px 75px !important;
+}
+.navbar-dark .navbar-nav .dropdown {
+    margin-right: -2500px;
+}
+.navbar-nav .dropdown-menu {
+    width: 180px;
+}
+.dropdown-item:hover {
+    background-color: #606060;
+    color: #FFF;
+}
+@media (min-width: 768px AND max-width: 992px) {
+    .dropdown-item {
+        width: 50px;
+    }
+}
+
+/* Start User Page -> Edit */
+
+h1 {
+    font-size: 55px;
+    margin: 40px 0px;
+    font-weight: bold;
+    color: #666;
+}
+
+/* End User Page -> Edit */
+
+/* Start Dashboard */
+
+.username {
+    font-size: 50px;
+    font-weight: bold;
+    color: #8f8f8f;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.username,
+.link {
+    font-family: monospace;
+}
+.link,
+.line {
+    color: #747474;
+    font-size: 30px;
+}
+.line {
+    padding: 0 20px;
+}
+.link {
+    position: relative;
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+}
+.link::after {
+    content: "";
+    position: absolute;
+    background-color: #606060;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.link:hover::after {
+    width: 100%;   
+}
+.link:hover {
+    text-decoration: none;
+    color: #666;
+}
+
+/* End Dashboard */
+
+
+/* Start asterisk */
+.form-control {
+    position: relative;
+}
+
+.asterisk { 
+    font-size: 25px;
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    color: #D20707;
+}
+
+
+/* End asterisk */
+
+.show-pass {
+    font-size: 1.2em;
+    position: absolute;
+    top: 4px;
+    right: -25px;
+}
+
+/* Start Main Table */
+
+.main-table tr:first-child td {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    margin-bottom: 10px;
+    width: 150px;
+    border-radius: 7px
+}
+
+/* Start Main Table */
+
+/* Start MSG */
+.alert-light {
+    margin: 15px 0px;
+}
+.msg-name,
+.msg-subject {
+    padding-left: 10px;
+    font-size: 25px;
+}
+.msg-subject {
+    justify-content: left;
+}
+
+/* End MSG */
+/* Start Category */
+.cate ul li {
+    background-color: #FFF;
+}
+
+/* End Category */
